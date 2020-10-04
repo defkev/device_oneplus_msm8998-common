@@ -46,7 +46,6 @@ write_makefiles "$MY_DIR"/proprietary-files.txt true
 printf '\n%s\n' "ifeq (\$(QCPATH),)" >> "$PRODUCTMK"
 printf '\n%s\n' "ifeq (\$(QCPATH),)" >> "$ANDROIDMK"
 
-write_makefiles "$MY_DIR"/proprietary-files-qc.txt true
 
 # Qualcomm performance blobs - conditional as well
 # in order to support Cyanogen OS builds
